@@ -8,8 +8,11 @@ Find the maximum possible height of the stacks such that all of the stacks are e
 Sample Input
 
 5 3 4
+
 3 2 1 1 1
+
 4 3 2
+
 1 1 4 1
 
 Sample Output
