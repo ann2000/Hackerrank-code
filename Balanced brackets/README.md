@@ -4,7 +4,8 @@
 
 Complete the function isBalanced in the editor below. It must return a string: YES if the sequence is balanced or NO if it is not.
 isBalanced has the following parameter(s):
-s: a string of brackets
+
+* s: a string of brackets
 
 **Input Format**
 
