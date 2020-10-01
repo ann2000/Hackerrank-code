@@ -10,17 +10,6 @@
 
 char* readline();
 
-// Complete the isBalanced function below.
-
-// Please either make the string static or allocate on the heap. For example,
-// static char str[] = "hello world";
-// return str;
-//
-// OR
-//
-// char* str = "hello world";
-// return str;
-//
 void del(char* s,int i)
 {
     int j;
