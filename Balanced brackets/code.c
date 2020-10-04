@@ -10,7 +10,7 @@
 
 char* readline();
 
-void del(char* s,int i)
+void delete(char* s,int i)
 {
     for(int j=i+2;s[j]!='\0';j++)
     {
@@ -29,7 +29,7 @@ char* isBalanced(char* s) {
      {   if(((s[i]=='(')&& (s[i+1]==')'))||((s[i]=='{')&&(s[i+1]=='}'))||((s[i]=='[')&&(s[i+1]==']')))
       {    
             f=f+1;
-            del(s,i);
+            delete(s,i);
             i=i-2;
             n=n-2;
       }
