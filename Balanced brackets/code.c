@@ -12,8 +12,7 @@ char* readline();
 
 void del(char* s,int i)
 {
-    int j;
-    for(j=i+2;s[j]!='\0';j++)
+    for(int j=i+2;s[j]!='\0';j++)
     {
         s[i]=s[j];
         i++;
@@ -22,11 +21,11 @@ void del(char* s,int i)
     s[i]='\0';
 }
 char* isBalanced(char* s) {
- int f,n,i,m;
+ int f,n,m;
  f=0;
  n=strlen(s);
  m=n;
-    for(i=0;i<n;i++)
+    for(int i=0;i<n;i++)
      {   if(((s[i]=='(')&& (s[i+1]==')'))||((s[i]=='{')&&(s[i+1]=='}'))||((s[i]=='[')&&(s[i+1]==']')))
       {    
             f=f+1;
